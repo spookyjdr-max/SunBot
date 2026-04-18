@@ -10,8 +10,8 @@ const SHOP_ITEMS = shopItems;
 
 export default {
     data: new SlashCommandBuilder()
-        .setName('inventory')
-        .setDescription('View your economy inventory'),
+        .setName('Inventaire')
+        .setDescription('Regarder votre inventaire'),
 
     execute: withErrorHandling(async (interaction, config, client) => {
         const deferred = await InteractionHelper.safeDefer(interaction);
@@ -35,7 +35,7 @@ export default {
 
             const inventory = userData.inventory || {};
 
-            let inventoryDescription = "Your inventory is currently empty.";
+            let inventoryDescription = "Votre inventaire est actuellement vide.";
 
             if (Object.keys(inventory).length > 0) {
                 inventoryDescription = Object.entries(inventory)
