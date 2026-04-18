@@ -22,22 +22,21 @@ const BUG_REPORT_BUTTON_ID = "help-bug-report";
 const HELP_MENU_TIMEOUT_MS = 5 * 60 * 1000;
 
 const CATEGORY_ICONS = {
-    Core: "ℹ️",
-    Moderation: "🛡️",
-    Economy: "💰",
-    Fun: "🎮",
-    Leveling: "📊",
-    Utility: "🔧",
-    Ticket: "🎫",
-    Welcome: "👋",
-    Giveaway: "🎉",
-    Counter: "🔢",
-    Tools: "🛠️",
-    Search: "🔍",
-    Reaction_Roles: "🎭",
-    Community: "👥",
-    Birthday: "🎂",
-    Config: "⚙️",
+    Core : "ℹ️",
+    Moderation  : "🛡️",
+    Réputation : "💰",
+    Fun : "🎮",
+    Utility : "🔧",
+    Ticket : "🎫",
+    Welcome : "👋",
+    Giveaway : "🎉",
+    Counter : "🔢",
+    Tools : "🛠️",
+    Search : "🔍",
+    Reaction_Roles : "🎭",
+    Community : "👥",
+    Anniversaire : "🎂",
+    Config : "⚙️",
 };
 
 
