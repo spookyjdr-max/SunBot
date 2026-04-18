@@ -5,7 +5,7 @@ export const botConfig = {
   // =========================
   // BOT PREFIX
   // =========================
-  prefix: "/",
+  prefix: "&",
 
   // =========================
   // BOT PRESENCE (what users see under the bot name)
@@ -30,7 +30,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Ouin ouin ouin !",
         // Activity type number (0 = Playing).
         type: 0, 
       },
