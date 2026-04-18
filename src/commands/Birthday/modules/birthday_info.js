@@ -20,10 +20,10 @@ export default {
             if (!birthdayData) {
                 return await InteractionHelper.safeEditReply(interaction, {
                     embeds: [createEmbed({
-                        title: '❌ No Birthday Found',
+                        title: '❌ Aucune anniversaire enregistré',
                         description: targetUser.id === interaction.user.id 
-                            ? "You haven't set your birthday yet. Use `/birthday set` to add it!"
-                            : `${targetUser.username} hasn't set their birthday yet.`,
+                            ? "Tu n'as pas encore enregistré ton anniversaire. Utilise `/birthday set` pour l'ajouter !"
+                            : `${targetUser.username} n'a pas encore enregistré son anniversaire.`,
                         color: 'error'
                     })]
                 });
